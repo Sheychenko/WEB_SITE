@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота контейнера равна высоте окна браузера */
+}
+
+.header {
+    margin-bottom: 20px; /* Отступ между надписью и картинкой */
+}
+
+.image-container {
+    margin-bottom: 20px; /* Отступ между картинкой и кнопками */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
