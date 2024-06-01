@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <form method="post" action="/profile">
+        <div class="profile-container">
+            <div class="avatar-container">
+                <input type="file" id="avatar-upload" accept="image/*">
+                <img id="profile-photo" src="/profile-photo/${username}" alt="Profile Photo" class="avatar">
+            </div>
+            <div class="status-container">
+                <textarea class="status" placeholder="Введите статус..."></textarea>
+            </div>
+            <button class="edit-button">Редактировать</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
